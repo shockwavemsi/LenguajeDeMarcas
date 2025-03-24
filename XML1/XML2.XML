@@ -1,0 +1,30 @@
+<!--
+Ejercicio 2
+Nombre: Jaren Andre Gutierrez Sare
+Curso: Lenguaje de Marcas
+Fecha: 16/03/2025
+Ejercicio: Documento XML - Información de Ciudades
+-->
+<hechosHistoricos>
+    <hecho descripcion="IBM da a conocer el PC.">
+        <fecha>
+            <dia>12</dia>
+            <mes>8</mes>
+            <año>1981</año>
+        </fecha>
+    </hecho>
+    <hecho descripcion="Se funda Google.">
+        <fecha>
+            <dia>4</dia>
+            <mes>9</mes>
+            <año>1998</año>
+        </fecha>
+    </hecho>
+    <hecho descripcion="Se funda Facebook.">
+        <fecha>
+            <dia>4</dia>
+            <mes>2</mes>
+            <año>2004</año>
+        </fecha>
+    </hecho>
+</hechosHistoricos>
