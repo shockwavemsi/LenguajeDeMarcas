@@ -1,0 +1,36 @@
+<!--
+Nombre: Jaren Andre Gutierrez Sare
+Curso: Lenguajes de Marcas
+Fecha: 24/03/2025
+Ejercicio: Información de equipos de fútbol
+-->
+<equipos>
+    <equipo>
+        <nombre>Real Madrid</nombre>
+        <ciudad>Madrid</ciudad>
+        <jugadores>
+            <jugador posicion="portero">
+                <nombre>Thibaut Courtois</nombre>
+                <nacionalidad>Bélgica</nacionalidad>
+            </jugador>
+            <jugador posicion="delantero">
+                <nombre>Karim Benzema</nombre>
+                <nacionalidad>Francia</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+    <equipo>
+        <nombre>FC Barcelona</nombre>
+        <ciudad>Barcelona</ciudad>
+        <jugadores>
+            <jugador posicion="defensa">
+                <nombre>Jules Koundé</nombre>
+                <nacionalidad>Francia</nacionalidad>
+            </jugador>
+            <jugador posicion="medio">
+                <nombre>Pablo Gavi</nombre>
+                <nacionalidad>España</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</equipos>
