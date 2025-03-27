@@ -1,0 +1,30 @@
+<!--
+Nombre: Jaren Andre Gutierrez Sare
+Curso: Lenguajes de Marcas
+Fecha: 26/03/2025
+Ejercicio: Modificar documento XML con HTML
+-->
+<html xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    <head>
+        <title>Book Review</title>
+    </head>
+    <body>
+        <xml:bookreview>
+            <xml:title>Introducción a XML</xml:title>
+            <table>
+                <tr align="center">
+                    <td>Author</td>
+                    <td>Price</td>
+                    <td>Pages</td>
+                    <td>Date</td>
+                </tr>
+                <tr align="left">
+                    <td><xml:author>Simon St. Laurent</xml:author></td>
+                    <td><xml:price>31.98</xml:price></td>
+                    <td><xml:pages>352</xml:pages></td>
+                    <td><xml:date>1998/01</xml:date></td>
+                </tr>
+            </table>
+        </xml:bookreview>
+    </body>
+</html>

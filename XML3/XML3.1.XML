@@ -1,0 +1,45 @@
+<!--
+Nombre: Jaren Andre Gutierrez Sare
+Curso: Lenguajes de Marcas
+Fecha: 26/03/2025
+Ejercicio: Catálogo de software informático
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo xmlns:os="http://example.com/os" xmlns:office="http://example.com/office">
+    <os:software>
+        <nombre>Windows 10</nombre>
+        <version>21H2</version>
+        <desarrollador>Microsoft</desarrollador>
+        <url>https://www.microsoft.com/windows</url>
+    </os:software>
+    <os:software>
+        <nombre>Ubuntu</nombre>
+        <version>22.04</version>
+        <desarrollador>Canonical</desarrollador>
+        <url>https://ubuntu.com/</url>
+    </os:software>
+    <os:software>
+        <nombre>MacOS Ventura</nombre>
+        <version>13.3</version>
+        <desarrollador>Apple</desarrollador>
+        <url>https://www.apple.com/macos</url>
+    </os:software>
+    <office:software>
+        <nombre>Microsoft Word</nombre>
+        <version>2021</version>
+        <desarrollador>Microsoft</desarrollador>
+        <url>https://www.microsoft.com/word</url>
+    </office:software>
+    <office:software>
+        <nombre>LibreOffice Writer</nombre>
+        <version>7.5</version>
+        <desarrollador>The Document Foundation</desarrollador>
+        <url>https://www.libreoffice.org</url>
+    </office:software>
+    <office:software>
+        <nombre>Google Docs</nombre>
+        <version>Online</version>
+        <desarrollador>Google</desarrollador>
+        <url>https://docs.google.com/</url>
+    </office:software>
+</catalogo>
