@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE datos [
+<!ELEMENT datos (codigo, id*)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+]>
+<datos>
+    <codigo>LMN654</codigo>
+    <id>101</id>
+    <id>102</id>
+    <id>103</id>
+</datos>
+

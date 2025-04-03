@@ -1,0 +1,54 @@
+<!--
+Nombre: Jaren
+Curso: Lenguajes de Marcas
+Fecha: 03/04/2025
+Ejercicio: Factura electrónica
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura [
+    <!ELEMENT factura (datos-emisor, datos-cliente, detalle-factura)>
+    <!ATTLIST factura numero CDATA #REQUIRED fecha CDATA #REQUIRED>
+    
+    <!ELEMENT datos-emisor (nombre, cif, telefono)>
+    <!ELEMENT datos-cliente (nombre, cif, telefono)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT cif (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    
+    <!ELEMENT detalle-factura (linea+)>
+    <!ATTLIST detalle-factura importe CDATA #REQUIRED>
+    
+    <!ELEMENT linea (descripcion, cantidad, pvp, oferta?)>
+    <!ATTLIST linea codigo-articulo ID #REQUIRED tipo (Libro | DVD | Varios) #REQUIRED>
+    
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT cantidad (#PCDATA)>
+    <!ELEMENT pvp (#PCDATA)>
+    <!ELEMENT oferta EMPTY>
+]>
+<factura numero="00123" fecha="03/04/2025">
+    <datos-emisor>
+        <nombre>Librería Central</nombre>
+        <cif>A12345678</cif>
+        <telefono>912345678</telefono>
+    </datos-emisor>
+    <datos-cliente>
+        <nombre>Biblioteca Nacional</nombre>
+        <cif>B87654321</cif>
+        <telefono>913456789</telefono>
+    </datos-cliente>
+    <detalle-factura importe="45.99">
+        <linea codigo-articulo="L001" tipo="Libro">
+            <descripcion>Don Quijote de la Mancha</descripcion>
+            <cantidad>2</cantidad>
+            <pvp>20.00</pvp>
+            <oferta/>
+        </linea>
+        <linea codigo-articulo="D002" tipo="DVD">
+            <descripcion>Película El Señor de los Anillos</descripcion>
+            <cantidad>1</cantidad>
+            <pvp>25.99</pvp>
+        </linea>
+    </detalle-factura>
+</factura>
+

@@ -1,0 +1,23 @@
+<!--
+Nombre: Jaren
+Curso: Lenguajes de Marcas
+Fecha: 03/04/2025
+Ejercicio: Equipos de la NBA
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EquiposNBA SYSTEM "nba.dtd">
+<EquiposNBA>
+    <equipo conferencia="Oeste">
+        <nombre>Los Angeles Lakers</nombre>
+        <titulos>17</titulos>
+        <posicion>3</posicion>
+        <quinteto>LeBron James, Anthony Davis, D'Angelo Russell, Austin Reaves, Rui Hachimura</quinteto>
+    </equipo>
+    <equipo conferencia="Este">
+        <nombre>Boston Celtics</nombre>
+        <titulos>18</titulos>
+        <posicion>1</posicion>
+        <quinteto>Jayson Tatum, Jaylen Brown, Jrue Holiday, Kristaps Porzingis, Al Horford</quinteto>
+    </equipo>
+</EquiposNBA>
+

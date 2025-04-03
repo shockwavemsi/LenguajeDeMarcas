@@ -1,0 +1,28 @@
+<!--
+Nombre: Jaren
+Curso: Lenguajes de Marcas
+Fecha: 03/04/2025
+Ejercicio: Cuento "La sombra en la noche"
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuento SYSTEM "cuentos.dtd">
+<cuento cod="T02" titulo="La sombra en la noche" genero="terror">
+    <personajes>
+        <personaje id="P3" tipo="principal">
+            <nombre>Tomás</nombre>
+            <genero>M</genero>
+            <descripcion>Un joven que investiga los extraños sucesos en su pueblo.</descripcion>
+            <descripcion_fisica>Alto, con cabello oscuro y ojos inquietantes.</descripcion_fisica>
+        </personaje>
+        <personaje id="P4" tipo="antagonista">
+            <nombre>La Sombra</nombre>
+            <genero>N</genero>
+            <descripcion>Una presencia oscura que acecha en los callejones.</descripcion>
+            <imagen>sombra.jpg</imagen>
+        </personaje>
+    </personajes>
+    <trama>Tomás intenta descubrir quién o qué es la Sombra que aparece en la noche y aterroriza a los habitantes.</trama>
+    <etiqueta nombre="suspenso"/>
+    <etiqueta nombre="misterio"/>
+</cuento>
+

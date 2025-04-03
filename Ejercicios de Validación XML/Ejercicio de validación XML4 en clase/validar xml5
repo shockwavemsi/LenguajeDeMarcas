@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE datos [
+<!ELEMENT datos (codigo, id)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+]>
+<datos>
+    <codigo>ABC321</codigo>
+    <id>456</id>
+</datos>
+

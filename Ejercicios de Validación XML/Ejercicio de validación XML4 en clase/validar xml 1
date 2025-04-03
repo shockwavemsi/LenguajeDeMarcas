@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE receta_de_cocina [
+<!ELEMENT receta_de_cocina (nombre, ingrediente*)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ingrediente (nombre, subingrediente*)>
+<!ELEMENT subingrediente (#PCDATA)>
+]>
+<receta_de_cocina>
+    <nombre>Chaufa</nombre>
+    <ingrediente>
+        <nombre>Huevo</nombre>
+        <subingrediente>Clara</subingrediente>
+        <subingrediente>Yema</subingrediente>
+    </ingrediente>
+    <ingrediente>
+        <nombre>Arroz del día de ayer</nombre>
+    </ingrediente>
+    <ingrediente>
+        <nombre>Sal</nombre>
+    </ingrediente>
+    <ingrediente>
+        <nombre>Pimienta</nombre>
+    </ingrediente>
+    <ingrediente>
+        <nombre>Cebolla</nombre>
+    </ingrediente>
+</receta_de_cocina>
+

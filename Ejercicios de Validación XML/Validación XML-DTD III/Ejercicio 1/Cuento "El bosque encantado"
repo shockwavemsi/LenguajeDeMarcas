@@ -1,0 +1,29 @@
+<!--
+Nombre: Jaren
+Curso: Lenguajes de Marcas
+Fecha: 03/04/2025
+Ejercicio: Cuento "El bosque encantado"
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuento SYSTEM "cuentos.dtd">
+<cuento cod="F01" titulo="El bosque encantado" genero="fantasía">
+    <personajes>
+        <personaje id="P1" tipo="principal">
+            <nombre>Luna</nombre>
+            <genero>F</genero>
+            <descripcion>Una joven valiente que descubre los secretos del bosque.</descripcion>
+            <imagen>luna.jpg</imagen>
+        </personaje>
+        <personaje id="P2" tipo="antagonista">
+            <nombre>El Guardián</nombre>
+            <genero>M</genero>
+            <descripcion>Un misterioso ser que protege el bosque de intrusos.</descripcion>
+            <url>https://guardianbosque.com</url>
+        </personaje>
+    </personajes>
+    <trama>En un bosque mágico, Luna descubre un portal hacia otro mundo lleno de criaturas fantásticas.</trama>
+    <etiqueta nombre="aventura"/>
+    <etiqueta nombre="magia"/>
+    <precio moneda="usd">14.99</precio>
+</cuento>
+

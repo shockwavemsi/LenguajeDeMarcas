@@ -1,0 +1,47 @@
+<!--
+Nombre: Jaren
+Curso: Lenguajes de Marcas
+Fecha: 03/04/2025
+Ejercicio: Liga de baloncesto en XML con DTD externa
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liga SYSTEM "baloncesto.dtd">
+<liga>
+    <jugador>
+        <nombre>LeBron</nombre>
+        <apellidos>James</apellidos>
+        <equipo>
+            <ciudad>Los Angeles</ciudad>
+            <presidente>
+                <nombrePresidente>Jeanie</nombrePresidente>
+                <apellidosPresidente>Buss</apellidosPresidente>
+            </presidente>
+        </equipo>
+        <edad>39</edad>
+    </jugador>
+    <jugador>
+        <nombre>Stephen</nombre>
+        <apellidos>Curry</apellidos>
+        <equipo>
+            <ciudad>San Francisco</ciudad>
+            <presidente>
+                <nombrePresidente>Joe</nombrePresidente>
+                <apellidosPresidente>Lacob</apellidosPresidente>
+            </presidente>
+        </equipo>
+        <edad>36</edad>
+    </jugador>
+    <jugador>
+        <nombre>Kevin</nombre>
+        <apellidos>Durant</apellidos>
+        <equipo>
+            <ciudad>Phoenix</ciudad>
+            <presidente>
+                <nombrePresidente>Mat</nombrePresidente>
+                <apellidosPresidente>Ishbia</apellidosPresidente>
+            </presidente>
+        </equipo>
+        <edad>35</edad>
+    </jugador>
+</liga>
+
