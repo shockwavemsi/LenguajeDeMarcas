@@ -1,0 +1,32 @@
+<!--
+Nombre: Jaren Andre Gutierrez Sare
+Curso: Lenguajes de Marcas - CSS
+Fecha: 12/04/2025
+Ejercicio: Respuesta Admitidas
+-->
+
+
+1. Alternativa con xs:pattern:
+
+En lugar de [ABCDE], podríamos escribir:
+    
+    - <xs:pattern value="[A-E]"/> <!-- Esto especifica el rango desde 'A' hasta 'E' -->
+
+O tambien:
+
+    -<xs:pattern value="A|B|C|D|E"/> <!-- Usando una opción explícita con "OR" -->
+
+
+2. Alternativa sin xs:pattern:
+Se puede usar xs:enumeration en lugar de xs:pattern:
+
+<xs:simpleType>
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="A"/>
+        <xs:enumeration value="B"/>
+        <xs:enumeration value="C"/>
+        <xs:enumeration value="D"/>
+        <xs:enumeration value="E"/>
+    </xs:restriction>
+</xs:simpleType>
+

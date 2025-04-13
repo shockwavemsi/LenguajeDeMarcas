@@ -1,0 +1,57 @@
+<!--
+Nombre: Jaren Andre Gutierrez Sare
+Curso: Lenguajes de Marcas - CSS
+Fecha: 12/04/2025
+Ejercicio: Expresiones Regulares
+-->
+
+
+Ejercicio 3 - Expresiones Regulares
+
+Valores permitidos: "Capítulo 0" hasta "Capítulo 9" (Solo se permite un dígito).
+
+Expresión 1: Capítulo \d
+
+Expresión 2: Capítulo [0-9]
+
+Valores permitidos: "Capítulo 0" hasta "Capítulo 99" (Uno o dos dígitos).
+
+Expresión 1: Capítulo \d{1,2}
+
+Expresión 2: Capítulo [0-9]{1,2}
+
+Valores permitidos: "Capítulo 1" hasta "Capítulo 99" (No se permite "Capítulo 0").
+
+Expresión 1: Capítulo [1-9][0-9]?
+
+Expresión 2: Capítulo [1-9]{1,2}
+
+Valores permitidos: "Capítulo 0" hasta "Capítulo 100" o más (Uno o más dígitos).
+
+Expresión 1: Capítulo \d+
+
+Expresión 2: Capítulo [0-9]+
+
+Valores permitidos: Cualquier valor de dos caracteres, el primero NO puede ser un dígito y el segundo debe ser "Z" (Ejemplo: "aZ", "AZ", "*Z").
+
+Expresión 1: \DZ
+
+Expresión 2: [^0-9]Z
+
+Valores permitidos: "ABBC", "ABBBC", "ABBBBC", "ABBBBBC" (Número variable de "B" entre 2 y 5 veces).
+
+Expresión 1: AB{2,5}C
+
+Expresión 2: ABB+C
+
+Valores permitidos: Primera letra "R", seguida de dos o más "S", y opcionalmente un dígito entre "3" y "8" (Ejemplo: "RSSS8", "RSSS4").
+
+Expresión 1: RSS{2,}[3-8]?
+
+Expresión 2: RSS{2,}\d?
+
+Valores permitidos: "COD", seguido de tres dígitos (0-9) y después cualquier cantidad de caracteres (Ejemplo: "COD123pera", "COD456manzana").
+
+Expresión 1: COD\d{3}.+
+
+Expresión 2: COD[0-9]{3}.*

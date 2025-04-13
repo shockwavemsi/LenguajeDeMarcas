@@ -1,0 +1,30 @@
+<!--
+Nombre: Jaren Andre Gutierrez Sare
+Curso: Lenguajes de Marcas - CSS
+Fecha: 13/04/2025
+Ejercicio: Heladería 2
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="heladeria">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="helado" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:choice>
+                            <xs:sequence>
+                                <xs:element name="fresa"/>
+                                <xs:element name="chocolate"/>
+                            </xs:sequence>
+                            <xs:sequence>
+                                <xs:element name="vainilla"/>
+                                <xs:element name="chocolate"/>
+                            </xs:sequence>
+                        </xs:choice>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+

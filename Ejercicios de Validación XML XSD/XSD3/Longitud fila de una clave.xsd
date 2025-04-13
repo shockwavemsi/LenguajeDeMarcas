@@ -1,0 +1,25 @@
+<!--
+Nombre: Jaren Andre Gutierrez Sare
+Curso: Lenguajes de Marcas - CSS
+Fecha: 12/04/2025
+Ejercicio: Longitud fija de una clave
+-->
+
+<xs:element name="clave">
+    <xs:simpleType>
+        <xs:restriction base="xs:string">
+            <xs:length value="10"/>
+            <xs:pattern value="[a-zA-Z0-9]{10}"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
+<!-- Alternativa usando únicamente xs:pattern -->
+<xs:element name="clave">
+    <xs:simpleType>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z0-9]{10}"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
